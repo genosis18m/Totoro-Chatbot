@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bot</title>
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="ai-chat-box">
+            <img src="AiImage.webp" alt="AI Bot Image" id="aiImage" width="10%">
+            <div class="ai-chat-area">
+                Hey man! I am Totoro, personally programmed by Momo! ASK ME ANYTHING...
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Come on, don’t be scared...">
+
+        <!-- Image upload button with proper nesting -->
+        <label for="imageUpload" class="upload-button">
+            <img src="img.svg" alt="Upload Image">
+        </label>
+        <input type="file" id="imageUpload" accept="image/*" hidden>
+
+        <button id="submit">
+            <img src="submit.svg" alt="Submit">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
